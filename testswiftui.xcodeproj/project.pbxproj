@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,8 +14,9 @@
 		052CF30523D1D1D300036242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30423D1D1D300036242 /* Assets.xcassets */; };
 		052CF30823D1D1D300036242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30723D1D1D300036242 /* Preview Assets.xcassets */; };
 		052CF30B23D1D1D300036242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30923D1D1D300036242 /* LaunchScreen.storyboard */; };
+		05C6185923D94CF800C9945C /* AddSomething.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6185823D94CF800C9945C /* AddSomething.swift */; };
 		05E96A1E23D8012200559A2A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96A1D23D8012200559A2A /* SwiftUIView.swift */; };
-		05E96A2223D8459A00559A2A /* BusinessProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96A2123D8459A00559A2A /* BusinessProfile.swift */; };
+		05E96A2223D8459A00559A2A /* AnimalProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96A2123D8459A00559A2A /* AnimalProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +29,9 @@
 		052CF30723D1D1D300036242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		052CF30A23D1D1D300036242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052CF30C23D1D1D300036242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C6185823D94CF800C9945C /* AddSomething.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSomething.swift; sourceTree = "<group>"; };
 		05E96A1D23D8012200559A2A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
-		05E96A2123D8459A00559A2A /* BusinessProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessProfile.swift; sourceTree = "<group>"; };
+		05E96A2123D8459A00559A2A /* AnimalProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +68,8 @@
 				052CF2FD23D1D1CD00036242 /* SceneDelegate.swift */,
 				052CF30223D1D1CD00036242 /* ContentView.swift */,
 				05E96A1D23D8012200559A2A /* SwiftUIView.swift */,
-				05E96A2123D8459A00559A2A /* BusinessProfile.swift */,
+				05E96A2123D8459A00559A2A /* AnimalProfile.swift */,
+				05C6185823D94CF800C9945C /* AddSomething.swift */,
 				052CF30423D1D1D300036242 /* Assets.xcassets */,
 				052CF30923D1D1D300036242 /* LaunchScreen.storyboard */,
 				052CF30C23D1D1D300036242 /* Info.plist */,
@@ -120,7 +123,7 @@
 				};
 			};
 			buildConfigurationList = 052CF2F323D1D1CD00036242 /* Build configuration list for PBXProject "testswiftui" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -156,9 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				052CF2FC23D1D1CD00036242 /* AppDelegate.swift in Sources */,
-				05E96A2223D8459A00559A2A /* BusinessProfile.swift in Sources */,
+				05E96A2223D8459A00559A2A /* AnimalProfile.swift in Sources */,
 				052CF2FE23D1D1CD00036242 /* SceneDelegate.swift in Sources */,
 				052CF30323D1D1CD00036242 /* ContentView.swift in Sources */,
+				05C6185923D94CF800C9945C /* AddSomething.swift in Sources */,
 				052CF30123D1D1CD00036242 /* testswiftui.xcdatamodeld in Sources */,
 				05E96A1E23D8012200559A2A /* SwiftUIView.swift in Sources */,
 			);
@@ -228,7 +232,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -282,7 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -301,6 +305,7 @@
 				DEVELOPMENT_TEAM = 62G843433A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = testswiftui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = this.testswiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +326,7 @@
 				DEVELOPMENT_TEAM = 62G843433A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = testswiftui/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = this.testswiftui;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

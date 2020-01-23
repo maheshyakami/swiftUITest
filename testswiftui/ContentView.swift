@@ -15,7 +15,10 @@ struct ContentView: View {
                 Image("fox").resizable().clipShape(Circle()).frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width - 50, alignment: .leading).overlay(Circle().stroke(Color.gray, lineWidth: 2))
                 SwiftUIView()
                 Spacer().frame(height: 20)
-                BusinessProfile()
+                // Navigation
+                NavigationLink(destination: AnimalProfile()) {
+                    Text("Animal Profile")
+                }
             }
             .navigationBarTitle("SwiftUI List")
         }
