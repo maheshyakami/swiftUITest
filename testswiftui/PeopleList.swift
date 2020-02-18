@@ -19,8 +19,8 @@ struct PeopleList: View {
                         HStack {
                             KFImage(URL(string: person.imageName))
                                 .resizable()
-                                .scaledToFit()
                                 .clipShape(Circle())
+                                .scaledToFill()
                                 .shadow(color: .primary, radius: 5)
                                 .padding([.horizontal, .top], 7)
                                 .frame(width: 110, height: 110)
@@ -36,7 +36,7 @@ struct PeopleList: View {
                 }
             }
         
-    .navigationBarTitle("People From Json")
+    .navigationBarTitle("People From JSON")
     }
 }
 
