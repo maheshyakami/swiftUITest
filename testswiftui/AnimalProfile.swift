@@ -16,14 +16,21 @@ struct AnimalProfile: View {
                 Text("King of the House").foregroundColor(.gray).offset(y: -20).font(.caption)
                 
             }
+            
             Spacer().frame(height: 5)
+            
             Text("Cool Animal").offset(x: 230).font(.callout)
+            
             Text("Description:").font(.headline)
+            
             Text("Not Doge")
+            
+            Text("New One")
+            
             Spacer()
         }
 //        .background(Color.red)
-        .navigationBarTitle("Animal Profile", displayMode: .inline)
+        .navigationBarTitle("Animal Profile")
         
     }
 }

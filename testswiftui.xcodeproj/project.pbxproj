@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0508DF5A23FB9BD000DC2F05 /* PeopleProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0508DF5923FB9BD000DC2F05 /* PeopleProfile.swift */; };
 		052CF2FC23D1D1CD00036242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052CF2FB23D1D1CD00036242 /* AppDelegate.swift */; };
 		052CF2FE23D1D1CD00036242 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052CF2FD23D1D1CD00036242 /* SceneDelegate.swift */; };
 		052CF30123D1D1CD00036242 /* testswiftui.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 052CF2FF23D1D1CD00036242 /* testswiftui.xcdatamodeld */; };
@@ -14,12 +15,17 @@
 		052CF30523D1D1D300036242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30423D1D1D300036242 /* Assets.xcassets */; };
 		052CF30823D1D1D300036242 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30723D1D1D300036242 /* Preview Assets.xcassets */; };
 		052CF30B23D1D1D300036242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052CF30923D1D1D300036242 /* LaunchScreen.storyboard */; };
+		0537904423FA47D7005A7A02 /* PeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537904323FA47D7005A7A02 /* PeopleList.swift */; };
+		0537904623FA47EF005A7A02 /* PersonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0537904523FA47EF005A7A02 /* PersonData.swift */; };
+		0537904823FA4DEA005A7A02 /* people.json in Resources */ = {isa = PBXBuildFile; fileRef = 0537904723FA4DEA005A7A02 /* people.json */; };
+		0537904B23FA5702005A7A02 /* KingfisherSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0537904A23FA5702005A7A02 /* KingfisherSwiftUI */; };
 		05C6185923D94CF800C9945C /* AddSomething.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C6185823D94CF800C9945C /* AddSomething.swift */; };
 		05E96A1E23D8012200559A2A /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96A1D23D8012200559A2A /* SwiftUIView.swift */; };
 		05E96A2223D8459A00559A2A /* AnimalProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E96A2123D8459A00559A2A /* AnimalProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0508DF5923FB9BD000DC2F05 /* PeopleProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleProfile.swift; sourceTree = "<group>"; };
 		052CF2F823D1D1CD00036242 /* testswiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testswiftui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		052CF2FB23D1D1CD00036242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		052CF2FD23D1D1CD00036242 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +35,9 @@
 		052CF30723D1D1D300036242 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		052CF30A23D1D1D300036242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		052CF30C23D1D1D300036242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0537904323FA47D7005A7A02 /* PeopleList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeopleList.swift; sourceTree = "<group>"; };
+		0537904523FA47EF005A7A02 /* PersonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonData.swift; sourceTree = "<group>"; };
+		0537904723FA4DEA005A7A02 /* people.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = people.json; sourceTree = "<group>"; };
 		05C6185823D94CF800C9945C /* AddSomething.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSomething.swift; sourceTree = "<group>"; };
 		05E96A1D23D8012200559A2A /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		05E96A2123D8459A00559A2A /* AnimalProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalProfile.swift; sourceTree = "<group>"; };
@@ -39,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0537904B23FA5702005A7A02 /* KingfisherSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,17 +74,21 @@
 		052CF2FA23D1D1CD00036242 /* testswiftui */ = {
 			isa = PBXGroup;
 			children = (
+				0537904723FA4DEA005A7A02 /* people.json */,
 				052CF2FB23D1D1CD00036242 /* AppDelegate.swift */,
 				052CF2FD23D1D1CD00036242 /* SceneDelegate.swift */,
 				052CF30223D1D1CD00036242 /* ContentView.swift */,
 				05E96A1D23D8012200559A2A /* SwiftUIView.swift */,
 				05E96A2123D8459A00559A2A /* AnimalProfile.swift */,
 				05C6185823D94CF800C9945C /* AddSomething.swift */,
+				0537904323FA47D7005A7A02 /* PeopleList.swift */,
 				052CF30423D1D1D300036242 /* Assets.xcassets */,
 				052CF30923D1D1D300036242 /* LaunchScreen.storyboard */,
 				052CF30C23D1D1D300036242 /* Info.plist */,
 				052CF2FF23D1D1CD00036242 /* testswiftui.xcdatamodeld */,
 				052CF30623D1D1D300036242 /* Preview Content */,
+				0537904523FA47EF005A7A02 /* PersonData.swift */,
+				0508DF5923FB9BD000DC2F05 /* PeopleProfile.swift */,
 			);
 			path = testswiftui;
 			sourceTree = "<group>";
@@ -103,6 +117,9 @@
 			dependencies = (
 			);
 			name = testswiftui;
+			packageProductDependencies = (
+				0537904A23FA5702005A7A02 /* KingfisherSwiftUI */,
+			);
 			productName = testswiftui;
 			productReference = 052CF2F823D1D1CD00036242 /* testswiftui.app */;
 			productType = "com.apple.product-type.application";
@@ -131,6 +148,9 @@
 				Base,
 			);
 			mainGroup = 052CF2EF23D1D1CD00036242;
+			packageReferences = (
+				0537904923FA5702005A7A02 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 052CF2F923D1D1CD00036242 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -148,6 +168,7 @@
 				052CF30B23D1D1D300036242 /* LaunchScreen.storyboard in Resources */,
 				052CF30823D1D1D300036242 /* Preview Assets.xcassets in Resources */,
 				052CF30523D1D1D300036242 /* Assets.xcassets in Resources */,
+				0537904823FA4DEA005A7A02 /* people.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,11 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				052CF2FC23D1D1CD00036242 /* AppDelegate.swift in Sources */,
+				0537904423FA47D7005A7A02 /* PeopleList.swift in Sources */,
 				05E96A2223D8459A00559A2A /* AnimalProfile.swift in Sources */,
 				052CF2FE23D1D1CD00036242 /* SceneDelegate.swift in Sources */,
+				0537904623FA47EF005A7A02 /* PersonData.swift in Sources */,
 				052CF30323D1D1CD00036242 /* ContentView.swift in Sources */,
 				05C6185923D94CF800C9945C /* AddSomething.swift in Sources */,
 				052CF30123D1D1CD00036242 /* testswiftui.xcdatamodeld in Sources */,
+				0508DF5A23FB9BD000DC2F05 /* PeopleProfile.swift in Sources */,
 				05E96A1E23D8012200559A2A /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +384,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0537904923FA5702005A7A02 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0537904A23FA5702005A7A02 /* KingfisherSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0537904923FA5702005A7A02 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = KingfisherSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		052CF2FF23D1D1CD00036242 /* testswiftui.xcdatamodeld */ = {
